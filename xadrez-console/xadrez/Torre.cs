@@ -19,7 +19,7 @@ namespace xadrez
             Peca p = tab.peca(pos);
             return p == null || p.cor != cor;
         }
-        public override bool[,] movimentosPossivels()
+        public override bool[,] movimentosPossiveis()
         {
             bool[,] mat = new bool[tab.linhas, tab.colunas];
 
